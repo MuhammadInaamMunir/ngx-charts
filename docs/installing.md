@@ -4,6 +4,11 @@ You can grab the latest release from the [Releases Page](https://github.com/swim
 
 * `npm install @swimlane/ngx-charts --save`
 
+Then add following import in App Module
+import {NgxChartsModule} from '@swimlane/ngx-charts';
+
+And add NgxChartsModule in imports array in @NgModule( )
+
 Also, the release code is checked in and resides [here](https://github.com/swimlane/ngx-charts/tree/master/release).
 
 Check the `package.json` file for the versions of angular ngx-charts is compatible with.
